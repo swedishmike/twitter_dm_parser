@@ -18,12 +18,10 @@ Not much really. But what it does do it seems to do fairly well.
 
 It will parse the **direct-message.js** and **direct-message-group.js** files from a Twitter backup. The end product(s) you'll end up with are the combined data in a Pandas dataframe as well as in a exported csv file.
 
+It also will try and match the Twitter ID's to the correct account name.
+
 The location of the archive files as well as the name and location of the exported csv file are defined as variables in the Notebook so you can customise that fairly easily.
 
 ### Feedback
 
 If you have any feedback/bugs/improvements etc - open an Issue here on Github or submit a pull request. As we all know: _Sharing is caring!_
-
-
-### TO-DO
-- Automagically iterate through all ID's and pull in the corresponding Twitter user names and populate the dataframe/csv file with those.
